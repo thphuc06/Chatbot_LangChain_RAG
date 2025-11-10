@@ -55,7 +55,7 @@ Bây giờ, bạn cài đặt tất cả các thư viện cần thiết. Lệnh 
 
 ```bash
 # Cài đặt tất cả thư viện (bao gồm cả các gói cần thiết cho quantization)
-pip install pandas torch transformers accelerate bitsandbytes sentence-transformers langchain langchain-community chromadb pypdf
+pip install -I --upgrade --force-reinstall pandas torch transformers accelerate bitsandbytes sentence-transformers langchain langchain-community chromadb
 ```
 
 ## 5\. 🏃 Hoàn thành và Chạy
